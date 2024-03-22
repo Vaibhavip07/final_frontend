@@ -22,7 +22,8 @@ const AddUi = () => {
 
     function handleSubmit(e){
       e.preventDefault();
-      //api
+      //api2
+      //console.log(api2)
         const api=`http://localhost:8080/api/user/${getUserId}/`;
        axios.post(api,post)
        .then(resp => console.log(resp))
