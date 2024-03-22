@@ -1,7 +1,7 @@
 import React, {  useState } from 'react'
 import './addui.css'
 import axios from 'axios'
-import {  useLocation, useNavigate } from 'react-router-dom';
+import {  useLocation, useNavigate,useParams } from 'react-router-dom';
 
 const AddUi = () => {
     const location=useLocation();
